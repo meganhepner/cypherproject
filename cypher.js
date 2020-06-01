@@ -11,10 +11,16 @@ let capital = function(response) {
   alert(upperFirst + upperLast);
 };
 
+
 let reverse = function(upperFirst, upperLast) {
-	numReverse = alert(upperLast + upperFirst);
+	backwards = alert(upperLast + upperFirst);
 };
 
-capital(response);
 
+let both = function() {
+capital(response);
 reverse(upperFirst, upperLast);
+alert(response.concat());
+};
+
+both();
