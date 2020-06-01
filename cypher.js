@@ -20,7 +20,9 @@ let reverse = function(upperFirst, upperLast) {
 let both = function() {
 capital(response);
 reverse(upperFirst, upperLast);
-alert(response.concat());
+alert
 };
 
 both();
+
+//We tried to change it completely on fiddle but it didn't work out so we're back to this
