@@ -1,13 +1,20 @@
 let response = prompt("Enter a sentence");
 
-let reverse = function(response) {
+let capital = function(response) {
 	firstLetter = response.charAt(0);
   lastLetterNum = response.length-1;
   lastLetter = response.charAt(lastLetterNum);
-  return firstLetter
-  return lastLetter
+  
+  upperFirst = firstLetter.toUpperCase();
+  upperLast = lastLetter.toUpperCase();
+  
+  alert(upperFirst + upperLast);
 };
 
-reverse(response);
+let reverse = function(upperFirst, upperLast) {
+	numReverse = alert(upperLast + upperFirst);
+};
 
-alert(firstLetter + " " + lastLetter);
+capital(response);
+
+reverse(upperFirst, upperLast);
